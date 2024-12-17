@@ -1,0 +1,21 @@
+.menu {
+	background-color: rgb(237, 231, 231);
+	.profile {
+		padding: 20px;
+		height: 90vh;
+		width: 20%;
+		background-color: rgb(237, 231, 231);
+
+		.profile-image {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			.image {
+				height: 150px;
+				width: 150px;
+				border-radius: 50%;
+			}
+		}
+	}
+}
